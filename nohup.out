@@ -1,0 +1,31 @@
+python3: can't open file 'app.py': [Errno 2] No such file or directory
+python3: can't open file 'app.py': [Errno 2] No such file or directory
+python3: can't open file 'app.py': [Errno 2] No such file or directory
+ * Serving Flask app 'new1'
+ * Debug mode: on
+Traceback (most recent call last):
+  File "new1.py", line 104, in <module>
+    app.run(debug=True)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 612, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/serving.py", line 1068, in run_simple
+    from .debug import DebuggedApplication
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/debug/__init__.py", line 27, in <module>
+    from .console import Console
+  File "/usr/local/lib/python3.8/dist-packages/werkzeug/debug/console.py", line 3, in <module>
+    import code
+  File "/root/youtube/youtubesearch/code.py", line 109
+    app.run(host='0.0.0.0', port=5000)
+    ^
+IndentationError: expected an indented block
+[2023-12-30 05:42:48 +0000] [5481] [INFO] Starting gunicorn 20.0.4
+[2023-12-30 05:42:48 +0000] [5481] [INFO] Listening at: http://0.0.0.0:8000 (5481)
+[2023-12-30 05:42:48 +0000] [5481] [INFO] Using worker: sync
+[2023-12-30 05:42:48 +0000] [5483] [INFO] Booting worker with pid: 5483
+[2023-12-30 05:48:46 +0000] [5483] [INFO] Worker exiting (pid: 5483)
+[2023-12-30 05:48:46 +0000] [5481] [INFO] Handling signal: term
+[2023-12-30 05:48:46 +0000] [5481] [INFO] Shutting down: Master
+[2023-12-30 05:49:03 +0000] [5499] [INFO] Starting gunicorn 20.0.4
+[2023-12-30 05:49:03 +0000] [5499] [INFO] Listening at: http://0.0.0.0:8000 (5499)
+[2023-12-30 05:49:03 +0000] [5499] [INFO] Using worker: sync
+[2023-12-30 05:49:03 +0000] [5501] [INFO] Booting worker with pid: 5501
